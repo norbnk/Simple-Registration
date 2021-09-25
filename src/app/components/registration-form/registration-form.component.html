@@ -1,7 +1,7 @@
 <form [formGroup]="profileForm" class="form-container">
   <mat-card>
     <mat-card-header>
-      <mat-card-title>Profile Information</mat-card-title>
+      <mat-card-title class="title-custom">Profile Information</mat-card-title>
     </mat-card-header>
     <mat-card-content>
       <div class="row">
@@ -17,7 +17,17 @@
         </div>
         <div class="col-md-6">
           <mat-form-field class="full-width">
-            <input formControlName="email" matInput placeholder="Email" />
+            <input formControlName="nationality" matInput placeholder="Nationality" />
+          </mat-form-field>
+        </div>
+        <div class="col-md-6">
+          <mat-form-field class="full-width">
+            <input type="number" formControlName="phoneNumber" matInput placeholder="Phone number" />
+          </mat-form-field>
+        </div>
+        <div class="col-md-6">
+          <mat-form-field class="full-width">
+            <input type="email" formControlName="email" matInput placeholder="Email" />
           </mat-form-field>
         </div>
       </div>
