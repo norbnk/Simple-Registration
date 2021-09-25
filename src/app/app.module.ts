@@ -17,9 +17,16 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatButtonModule } from '@angular/material/button';
 import { UserListComponent } from './components/user-list/user-list.component';
 import { UserListItemComponent } from './components/user-list-item/user-list-item.component';
+import { LoginComponentComponent } from './components/login-component/login-component.component';
 
 @NgModule({
-  declarations: [AppComponent, RegistrationFormComponent, UserListComponent, UserListItemComponent],
+  declarations: [
+    AppComponent,
+    RegistrationFormComponent,
+    UserListComponent,
+    UserListItemComponent,
+    LoginComponentComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

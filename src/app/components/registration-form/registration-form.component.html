@@ -22,7 +22,12 @@
         </div>
         <div class="col-md-6">
           <mat-form-field class="full-width">
-            <input type="number" formControlName="phoneNumber" matInput placeholder="Phone number" />
+            <input
+              type="number"
+              formControlName="phoneNumber"
+              matInput
+              placeholder="Phone number"
+            />
           </mat-form-field>
         </div>
         <div class="col-md-6">
@@ -43,7 +48,8 @@
       </div>
     </mat-card-content>
     <mat-card-actions>
-      <button (click)="saveForm()" mat-raised-button color="primary">Save</button>
+      <button (click)="saveForm()" mat-raised-button color="primary" class="button">Save</button>
+      <button routerLink="/" mat-raised-button color="primary" class="button">Login Page</button>
     </mat-card-actions>
   </mat-card>
 </form>
