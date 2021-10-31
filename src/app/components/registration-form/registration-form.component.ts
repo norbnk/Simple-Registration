@@ -19,6 +19,7 @@ export class RegistrationFormComponent implements OnInit {
     phoneNumber: ['', Validators.required],
     email: ['', Validators.required],
     dob: ['', Validators.required],
+    date: ['', Validators.required],
   });
 
   ngOnInit(): void {}
